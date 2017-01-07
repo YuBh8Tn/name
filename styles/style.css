@@ -1,52 +1,129 @@
 body {
-  background-color: #000000;
-  font-family: Arial, sans-serif;
+	background-color: black;
 }
-h1 {
-  color: #FFFFFF;
+h1, h2 {
+	color: #777;
+	margin-top: 15px;
+	margin-bottom: 4px;
 }
-li {
-  color: #FFFFFF;
-  list-style-type: none;
-  display: inline;
-  padding-right: 15px;
+p {
+	margin: 0;
 }
-li a {
-  text-decoration: none;
-  color: #a8a8a8;
-  font-size: 24px;
+.clear {
+	clear: both;
 }
-nav {
-  width: 85em;
-  background-color: #00FF00;
-  border-style: solid;
-  border-width: 0px;
-  border-radius: 15px;
-  border-color: #black;
-  padding: 7.5px;
-  margin-left: 1.6em;
-  text-align: right;
+#wrapper {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background: black;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+/*Start header classes*/
+header {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	background: #33FF33;
+	height: 50px;
+	color: white;
+	border-radius: 15px;
+}
+#logo {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	background: black;
+	height: 150px;
+}
+header ul {
+	list-style: none;
+	float: left;
+}
+header ul li {
+	display: inline;
+	margin-left: 10px;
+}
+header a {
+	color: #777;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 45px;
+}
+header a:hover {
+	color: black;
 }
 section {
 	float: left;
-	background-color: red;
-	width: 50%;
-	height: 25em;
-	padding: 0;
-	margin-left: 1.6em;
-	margin-top: 1em;
+	padding: 15px;
+	width: 703px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #D3D3D3;
+	border-radius: 15px;
+	border: 1px solid white;
+}
 
+/*Start section classes*/
+.index-post {
+	height: 200px;
+}
+.index-post img {
+	float: left;
+	border: 5px solid #00;
+	padding: 5px;
+	margin-right: 10px;
+}
+.index-post a {
+	color: #222;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+}
+.title-links {
+	color: #222;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
 }
 aside {
 	float: right;
-	background-color: blue;
-	width: 20em;
-	height: 25em;
-	margin-right: 1.6em;
-	margin-top: 1em;
+	width: 378px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+	color: white;
+	background-color: #D3D3D3;
+	border-radius: 15px;
+	border: 1px solid white;
+	height: auto;
 }
+aside img {
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
 footer {
-	background-color: purple;
-	width: 10em;
-	height: 2em;
+	clear: both;
+	background: #33FF33;
+	color: white;
+	border-radius: 15px;
+	padding: 10px;
+	border: 1px solid #00;
 }
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+footer ul li {
+	margin-right: 15px;
+	display: inline;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+ 
